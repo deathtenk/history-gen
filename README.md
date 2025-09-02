@@ -2,11 +2,11 @@
 
 A small CLI tool that generates a history.md file from your Git commit history.
 Each entry includes:
-	•	Commit message (prompt)
-	•	Commit hash and date (converted to Eastern Time)
-	•	File name
-	•	Line numbers
-	•	Added (+) and removed (-) lines, colorized in Markdown with diff fences
+  - Commit message (prompt)
+  - Commit hash and date (converted to Eastern Time)
+  - File name
+  - Line numbers
+  - Added (+) and removed (-) lines, colorized in Markdown with diff fences
 
 ⸻
 
@@ -37,7 +37,7 @@ Run from the root of any Git repository:
 git-history-gen [OPTIONS]
 
 Common options:
-	•	--user-id "<email>"
+  - --user-id "<email>"
 Filter commits by author email (or regex pattern).
 Example:
 
@@ -46,7 +46,7 @@ Example:
 git-history-gen --user-id "user@example.com"
 ```
 
-	•	--limit N
+  - --limit N
 Limit the number of commits (most recent first).
 Example:
 
@@ -54,7 +54,7 @@ Example:
 git-history-gen --limit 20
 ```
 
-	•	--output FILE
+  - --output FILE
 Output file name (default: history.md).
 Example:
 
