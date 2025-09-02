@@ -82,7 +82,7 @@ git-history-gen --output my_changes.md
 
 ⸻
 
-Updating
+## Updating
 
 If you pull changes to this repo, reinstall with:
 
