@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-history-gen"
+version = "0.1.0"
+description = "Generate a history.md from git commits"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Henk Reder", email = "hnk.reder@gmail.com" }]
+license = { text = "MIT" }
+keywords = ["git", "markdown", "diff", "history", "changelog"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+]
+
+[project.scripts]
+git-history-gen = "git_history_gen.cli:main"
